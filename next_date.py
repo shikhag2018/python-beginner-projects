@@ -2,9 +2,6 @@ day_31=[1,3,5,7,8,10,11]
 day_30=[4,6,9,11]
 
 def next_date(day,month,year):
-    global next_day
-    global next_month
-    global next_yr
     if (year%4)==0:
          if (year%100)==0:
               if (year%400)==0:
